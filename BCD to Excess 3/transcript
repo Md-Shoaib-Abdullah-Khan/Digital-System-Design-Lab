@@ -1,0 +1,47 @@
+# Compile of BCD to Excess-3.v failed with 1 errors.
+# Compile of BCD to Excess-3.v failed with 16 errors.
+# Compile of BCD to Excess-3.v failed with 16 errors.
+# Compile of BCD to Excess-3.v failed with 16 errors.
+# Compile of BCD to Excess-3.v failed with 1 errors.
+# Compile of BCD to Excess-3.v failed with 1 errors.
+# Compile of BCD to Excess-3.v failed with 1 errors.
+# Quit canceled
+# Compile of BCD to Excess-3.v was successful.
+# Compile of BCD to Excess-3.v was successful.
+# Compile of BCD to Excess-3.v was successful.
+vsim -gui work.BCD_to_Excess
+# vsim -gui work.BCD_to_Excess 
+# Start time: 12:43:03 on Nov 26,2022
+# Loading work.BCD_to_Excess
+add wave -position insertpoint  \
+sim:/BCD_to_Excess/B \
+sim:/BCD_to_Excess/E
+force -freeze sim:/BCD_to_Excess/B 0000 0
+run
+quit -sim
+# End time: 12:43:52 on Nov 26,2022, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 15
+# Compile of BCD to Excess-3.v was successful.
+vsim -gui work.BCD_to_Excess
+# vsim -gui work.BCD_to_Excess 
+# Start time: 12:44:19 on Nov 26,2022
+# Loading work.BCD_to_Excess
+add wave -position insertpoint  \
+sim:/BCD_to_Excess/B \
+sim:/BCD_to_Excess/E
+force -freeze sim:/BCD_to_Excess/B 0000 0
+run
+force -freeze sim:/BCD_to_Excess/B 0001 0
+run
+force -freeze sim:/BCD_to_Excess/B 0011 0
+run
+force -freeze sim:/BCD_to_Excess/B 1001 0
+run
+force -freeze sim:/BCD_to_Excess/B 1010 0
+run
+run
+quit -sim
+# End time: 12:47:22 on Nov 26,2022, Elapsed time: 0:03:03
+# Errors: 0, Warnings: 2
+# Project file W:/Study/2-1/Digital System Design/Lab/Model Sim/DSD Lab Exam/BCD to Excess 3/BCD to Excess-3.mpf is write protected, data cannot be saved.
+# Unable to save project.
