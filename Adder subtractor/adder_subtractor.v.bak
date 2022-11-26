@@ -1,0 +1,14 @@
+module adderSubtractor(A, B, M, S, C);
+
+input [0:3]A, B;
+input M;
+output [0:3] S;
+output C;
+
+wire [0:3] Bxor;
+
+assign Bxor = B ^ M;
+
+assign {C, S} = A + Bxor + M ; 	
+
+endmodule
